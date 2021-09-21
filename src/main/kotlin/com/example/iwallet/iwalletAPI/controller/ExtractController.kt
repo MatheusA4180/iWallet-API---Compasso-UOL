@@ -16,9 +16,7 @@ import javax.validation.Valid
 class ExtractController(private val extractService: ExtractService) {
 
     @GetMapping
-    fun returnAllExtracts(): List<Extract> {
-        return extractService.returnAllExtracts()
-    }
+    fun returnAllExtracts(): List<Extract> = extractService.returnAllExtracts()
 
     @PostMapping
     @Transactional
