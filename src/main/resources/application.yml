@@ -1,7 +1,7 @@
 spring:
   datasource:
     driverClassName: org.h2.Driver
-    url: jdbc:h2:file:C:\Users\matheus.andrade\Desktop\Database-iWallet
+    url: jdbc:h2:file:C:\Database-iWallet
     username: sa
     password:
   jpa:
